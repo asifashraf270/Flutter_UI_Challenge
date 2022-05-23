@@ -92,16 +92,16 @@ class GroceryHomePageState extends State<GroceryHomePage> {
       items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
           icon: Icon(Icons.home),
-          title: Text("Home")),
+         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.shopping_cart),
-          title: Text("Cart")),
+          ),
         BottomNavigationBarItem(
           icon: Icon(Icons.favorite_border),
-          title: Text("Wishlist")),
+         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.person_outline),
-          title: Text("You")),
+          ),
       ],
       type: BottomNavigationBarType.fixed,
       currentIndex: _currentIndex,

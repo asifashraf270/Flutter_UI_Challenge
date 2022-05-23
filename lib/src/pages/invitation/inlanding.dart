@@ -27,7 +27,7 @@ class InvitationLandingPage extends StatelessWidget {
             "Invitations",
             style: Theme.of(context)
                 .textTheme
-                .display1!
+                .subtitle1!
                 .copyWith(fontWeight: FontWeight.bold),
           ),
           Text.rich(

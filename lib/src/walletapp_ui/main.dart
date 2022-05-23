@@ -41,9 +41,9 @@ class _WalletAppState extends State<WalletApp> {
       backgroundColor: Color.fromRGBO(38, 81, 158, 1),
       bottomNavigationBar: BottomNavigationBar(
         items: [
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text("Home")),
+          BottomNavigationBarItem(icon: Icon(Icons.home), ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.credit_card), title: Text("Card")),
+              icon: Icon(Icons.credit_card),),
         ],
         onTap: (index) {
           setState(() {

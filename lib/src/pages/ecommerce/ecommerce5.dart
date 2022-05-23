@@ -64,19 +64,16 @@ class EcommerceFivePage extends StatelessWidget {
           items: [
             BottomNavigationBarItem(
               icon: Icon(Icons.calendar_today),
-              title: Text("Today's Special"),
+            
             ),
             BottomNavigationBarItem(
                 icon: Icon(
                   Icons.fastfood,
                   color: Colors.deepOrange,
                 ),
-                title: Text(
-                  "Foods",
-                  style: TextStyle(color: Colors.deepOrange),
-                )),
+               ),
             BottomNavigationBarItem(
-                icon: Icon(Icons.settings), title: Text("Settings")),
+                icon: Icon(Icons.settings)),
           ],
         ),
         backgroundColor: Colors.white70.withOpacity(0.9),

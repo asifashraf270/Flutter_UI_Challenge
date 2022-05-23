@@ -84,15 +84,15 @@ class EcommerceTwoPage extends StatelessWidget {
     return BottomNavigationBar(
       items: <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-            icon: Icon(Icons.category), title: Text("Shop")),
+            icon: Icon(Icons.category), ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.favorite_border), title: Text("Favorites")),
+            icon: Icon(Icons.favorite_border), ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.notifications), title: Text("Notifications")),
+            icon: Icon(Icons.notifications), ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.location_on), title: Text("Near me")),
+            icon: Icon(Icons.location_on), ),
         BottomNavigationBarItem(
-            icon: Icon(Icons.settings), title: Text("Settings")),
+            icon: Icon(Icons.settings), ),
       ],
       currentIndex: 0,
       type: BottomNavigationBarType.fixed,

@@ -76,11 +76,11 @@ class TravelHomePage extends StatelessWidget {
         currentIndex: 0,
         items: [
           BottomNavigationBarItem(
-              icon: Icon(Icons.location_searching), title: Text("Discover")),
+              icon: Icon(Icons.location_searching), ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.location_on), title: Text("Popular")),
+              icon: Icon(Icons.location_on), ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.settings), title: Text("Settings")),
+              icon: Icon(Icons.settings), ),
         ],
       ),
     );

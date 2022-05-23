@@ -376,13 +376,13 @@ class EcommerceOnePage extends StatelessWidget {
       )),
       bottomNavigationBar: BottomNavigationBar(
         items: <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), title: Text('Home')),
+          BottomNavigationBarItem(icon: Icon(Icons.home)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.message), title: Text('Messages')),
+              icon: Icon(Icons.message)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.shopping_cart), title: Text('Cart')),
+              icon: Icon(Icons.shopping_cart)),
           BottomNavigationBarItem(
-              icon: Icon(Icons.person), title: Text('Account')),
+              icon: Icon(Icons.person)),
         ],
         currentIndex: 0,
         type: BottomNavigationBarType.fixed,

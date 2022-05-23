@@ -48,7 +48,7 @@ class ProfileThreePage extends StatelessWidget {
                                 children: <Widget>[
                                   Text(
                                     "Little Butterfly",
-                                    style: Theme.of(context).textTheme.title,
+                                    style: Theme.of(context).textTheme.subtitle1,
                                   ),
                                   ListTile(
                                     contentPadding: EdgeInsets.all(0),
